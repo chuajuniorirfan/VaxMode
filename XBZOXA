@@ -1,0 +1,579 @@
+local VaxD = Instance.new("ScreenGui")
+local VaxFrame = Instance.new("Frame")
+local Menu = Instance.new("Frame")
+local Line = Instance.new("Frame")
+local VaxD_2 = Instance.new("TextLabel")
+local UIGradient = Instance.new("UIGradient")
+local Main = Instance.new("Frame")
+local Scroll = Instance.new("ScrollingFrame")
+local Home = Instance.new("TextButton")
+local MainScript = Instance.new("TextButton")
+local Checker = Instance.new("TextButton")
+local Credits = Instance.new("TextButton")
+local Typa = Instance.new("Frame")
+local MainScript_2 = Instance.new("Frame")
+local Fly = Instance.new("TextButton")
+local Frame = Instance.new("Frame")
+local Home_2 = Instance.new("Frame")
+local Profile = Instance.new("ImageLabel")
+local Name = Instance.new("TextLabel")
+local Cash = Instance.new("TextLabel")
+local Bounty = Instance.new("TextLabel")
+local Check = Instance.new("Frame")
+local Name_2 = Instance.new("TextBox")
+local Cash_2 = Instance.new("TextLabel")
+local Bounty_2 = Instance.new("TextLabel")
+local avatar = Instance.new("ImageLabel")
+local Go = Instance.new("TextButton")
+local Credits_2 = Instance.new("Frame")
+local IDEA = Instance.new("TextLabel")
+local Script = Instance.new("TextLabel")
+local Script_2 = Instance.new("TextLabel")
+
+VaxD.Name = "VaxD"
+VaxD.Parent = game.Players.LocalPlayer:WaitForChild("CoreGui")
+VaxD.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+VaxFrame.Name = "VaxFrame"
+VaxFrame.Parent = VaxD
+VaxFrame.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+VaxFrame.BorderColor3 = Color3.fromRGB(27, 42, 53)
+VaxFrame.BorderSizePixel = 0
+VaxFrame.Position = UDim2.new(0.196347028, 0, 0.174950302, 0)
+VaxFrame.Size = UDim2.new(0.486757994, 0, 0.520874739, 0)
+VaxFrame.Active = true
+VaxFrame.Draggable = true
+
+Menu.Name = "Menu"
+Menu.Parent = VaxFrame
+Menu.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
+Menu.Size = UDim2.new(0.246435851, 0, 1, 0)
+
+Line.Name = "Line"
+Line.Parent = Menu
+Line.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Line.BorderSizePixel = 0
+Line.Position = UDim2.new(0.0228395723, 0, 0.117987424, 0)
+Line.Size = UDim2.new(0.944040418, 0, 0.0114503819, 0)
+
+VaxD_2.Name = "VaxD"
+VaxD_2.Parent = Menu
+VaxD_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+VaxD_2.BackgroundTransparency = 1.000
+VaxD_2.Position = UDim2.new(-1.16168657e-07, 0, 0, 0)
+VaxD_2.Size = UDim2.new(0.99733299, 0, 0.114503816, 0)
+VaxD_2.Font = Enum.Font.GothamBlack
+VaxD_2.Text = "VaxMode"
+VaxD_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+VaxD_2.TextScaled = true
+VaxD_2.TextSize = 20.000
+VaxD_2.TextWrapped = true
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.40, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.42, Color3.fromRGB(255, 0, 0)), ColorSequenceKeypoint.new(0.47, Color3.fromRGB(175, 53, 53)), ColorSequenceKeypoint.new(0.54, Color3.fromRGB(103, 103, 103)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient.Parent = VaxD_2
+
+Main.Name = "Main"
+Main.Parent = Menu
+Main.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
+Main.BorderSizePixel = 0
+Main.Position = UDim2.new(-1.16168657e-07, 0, 0.129437804, 0)
+Main.Size = UDim2.new(0.99733299, 0, 0.870562136, 0)
+
+Scroll.Name = "Scroll"
+Scroll.Parent = Main
+Scroll.Active = true
+Scroll.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Scroll.BackgroundTransparency = 1.000
+Scroll.BorderSizePixel = 0
+Scroll.Size = UDim2.new(1, 0, 1, 0)
+
+Home.Name = "Home"
+Home.Parent = Scroll
+Home.BackgroundColor3 = Color3.fromRGB(58, 58, 58)
+Home.BackgroundTransparency = 1.000
+Home.BorderSizePixel = 0
+Home.Position = UDim2.new(0.0229007639, 0, 0.0263057202, 0)
+Home.Size = UDim2.new(0.847328246, 0, 0.0482271537, 0)
+Home.Font = Enum.Font.GothamBold
+Home.Text = "Home"
+Home.TextColor3 = Color3.fromRGB(176, 176, 176)
+Home.TextScaled = true
+Home.TextSize = 14.000
+Home.TextWrapped = true
+
+MainScript.Name = "Main Script"
+MainScript.Parent = Scroll
+MainScript.BackgroundColor3 = Color3.fromRGB(58, 58, 58)
+MainScript.BackgroundTransparency = 1.000
+MainScript.BorderSizePixel = 0
+MainScript.Position = UDim2.new(0.0229007639, 0, 0.0942621678, 0)
+MainScript.Size = UDim2.new(0.847328246, 0, 0.0482271537, 0)
+MainScript.Font = Enum.Font.GothamBold
+MainScript.Text = "Main Script"
+MainScript.TextColor3 = Color3.fromRGB(176, 176, 176)
+MainScript.TextScaled = true
+MainScript.TextSize = 14.000
+MainScript.TextWrapped = true
+
+Checker.Name = "Checker"
+Checker.Parent = Scroll
+Checker.BackgroundColor3 = Color3.fromRGB(58, 58, 58)
+Checker.BackgroundTransparency = 1.000
+Checker.BorderSizePixel = 0
+Checker.Position = UDim2.new(0.0229007639, 0, 0.168795049, 0)
+Checker.Size = UDim2.new(0.847328246, 0, 0.0482271537, 0)
+Checker.Font = Enum.Font.GothamBold
+Checker.Text = "Check"
+Checker.TextColor3 = Color3.fromRGB(176, 176, 176)
+Checker.TextScaled = true
+Checker.TextSize = 14.000
+Checker.TextWrapped = true
+
+Credits.Name = "Credits"
+Credits.Parent = Scroll
+Credits.BackgroundColor3 = Color3.fromRGB(58, 58, 58)
+Credits.BackgroundTransparency = 1.000
+Credits.BorderSizePixel = 0
+Credits.Position = UDim2.new(0.0229007639, 0, 0.245520055, 0)
+Credits.Size = UDim2.new(0.847328246, 0, 0.0482271537, 0)
+Credits.Font = Enum.Font.GothamBold
+Credits.Text = "Credits"
+Credits.TextColor3 = Color3.fromRGB(176, 176, 176)
+Credits.TextScaled = true
+Credits.TextSize = 14.000
+Credits.TextWrapped = true
+
+Typa.Name = "Typa"
+Typa.Parent = VaxFrame
+Typa.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+Typa.Position = UDim2.new(0.245778605, 0, 0, 0)
+Typa.Size = UDim2.new(0.75422138, 0, 1, 0)
+
+MainScript_2.Name = "MainScript"
+MainScript_2.Parent = Typa
+MainScript_2.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+MainScript_2.Size = UDim2.new(1, 0, 1, 0)
+MainScript_2.Visible = false
+
+Fly.Name = "Fly"
+Fly.Parent = MainScript_2
+Fly.BackgroundColor3 = Color3.fromRGB(88, 88, 88)
+Fly.BorderSizePixel = 0
+Fly.Position = UDim2.new(0.0174129345, 0, 0.0725190863, 0)
+Fly.Size = UDim2.new(0.296019882, 0, 0.0989034548, 0)
+Fly.Font = Enum.Font.GothamBold
+Fly.Text = "Fly"
+Fly.TextColor3 = Color3.fromRGB(0, 0, 0)
+Fly.TextScaled = true
+Fly.TextSize = 14.000
+Fly.TextWrapped = true
+
+Frame.Parent = Fly
+Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(-0.00840336177, 0, -0.328509539, 0)
+Frame.Size = UDim2.new(1.00840342, 0, 0.231546655, 0)
+
+Home_2.Name = "Home"
+Home_2.Parent = Typa
+Home_2.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+Home_2.Size = UDim2.new(1, 0, 1, 0)
+
+Profile.Name = "Profile"
+Profile.Parent = Home_2
+Profile.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Profile.BackgroundTransparency = 1.000
+Profile.Position = UDim2.new(0.375236481, 0, 0.213407263, 0)
+Profile.Size = UDim2.new(0.250660568, 0, 0.342313111, 0)
+
+Name.Name = "Name"
+Name.Parent = Home_2
+Name.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Name.BackgroundTransparency = 1.000
+Name.Position = UDim2.new(0.126865685, 0, 0.637404561, 0)
+Name.Size = UDim2.new(0.74875623, 0, 0.106870227, 0)
+Name.Font = Enum.Font.GothamBlack
+Name.Text = "Name :"
+Name.TextColor3 = Color3.fromRGB(0, 0, 0)
+Name.TextScaled = true
+Name.TextSize = 14.000
+Name.TextWrapped = true
+
+Cash.Name = "Cash"
+Cash.Parent = Home_2
+Cash.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Cash.BackgroundTransparency = 1.000
+Cash.Position = UDim2.new(0.124378122, 0, 0.744274795, 0)
+Cash.Size = UDim2.new(0.74875623, 0, 0.106870227, 0)
+Cash.Font = Enum.Font.GothamBlack
+Cash.Text = "Cash :"
+Cash.TextColor3 = Color3.fromRGB(0, 0, 0)
+Cash.TextScaled = true
+Cash.TextSize = 14.000
+Cash.TextWrapped = true
+
+Bounty.Name = "Bounty"
+Bounty.Parent = Home_2
+Bounty.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Bounty.BackgroundTransparency = 1.000
+Bounty.Position = UDim2.new(0.126865685, 0, 0.851145029, 0)
+Bounty.Size = UDim2.new(0.74875623, 0, 0.106870227, 0)
+Bounty.Font = Enum.Font.GothamBlack
+Bounty.Text = "Bounty :"
+Bounty.TextColor3 = Color3.fromRGB(0, 0, 0)
+Bounty.TextScaled = true
+Bounty.TextSize = 14.000
+Bounty.TextWrapped = true
+
+Check.Name = "Check"
+Check.Parent = Typa
+Check.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+Check.Size = UDim2.new(1, 0, 1, 0)
+Check.Visible = false
+
+Name_2.Name = "Name"
+Name_2.Parent = Check
+Name_2.BackgroundColor3 = Color3.fromRGB(86, 86, 86)
+Name_2.BorderSizePixel = 0
+Name_2.Position = UDim2.new(0.171641797, 0, 0.450381696, 0)
+Name_2.Size = UDim2.new(0.654228866, 0, 0.0992366448, 0)
+Name_2.Font = Enum.Font.GothamBlack
+Name_2.PlaceholderColor3 = Color3.fromRGB(0, 0, 0)
+Name_2.PlaceholderText = "Name Player"
+Name_2.Text = ""
+Name_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Name_2.TextScaled = true
+Name_2.TextSize = 14.000
+Name_2.TextWrapped = true
+
+Cash_2.Name = "Cash"
+Cash_2.Parent = Check
+Cash_2.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
+Cash_2.BackgroundTransparency = 1.000
+Cash_2.BorderSizePixel = 0
+Cash_2.Position = UDim2.new(0.208955228, 0, 0.614503801, 0)
+Cash_2.Size = UDim2.new(0, 232, 0, 22)
+Cash_2.Font = Enum.Font.GothamBlack
+Cash_2.Text = "Cash :"
+Cash_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Cash_2.TextScaled = true
+Cash_2.TextSize = 14.000
+Cash_2.TextWrapped = true
+
+Bounty_2.Name = "Bounty"
+Bounty_2.Parent = Check
+Bounty_2.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
+Bounty_2.BackgroundTransparency = 1.000
+Bounty_2.BorderSizePixel = 0
+Bounty_2.Position = UDim2.new(0.208955228, 0, 0.721374035, 0)
+Bounty_2.Size = UDim2.new(0, 232, 0, 22)
+Bounty_2.Font = Enum.Font.GothamBlack
+Bounty_2.Text = "Bounty :"
+Bounty_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Bounty_2.TextScaled = true
+Bounty_2.TextSize = 14.000
+Bounty_2.TextWrapped = true
+
+avatar.Name = "avatar"
+avatar.Parent = Check
+avatar.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+avatar.BackgroundTransparency = 1.000
+avatar.Position = UDim2.new(0.363184065, 0, 0.0229007639, 0)
+avatar.Size = UDim2.new(0.266169161, 0, 0.400430232, 0)
+
+Go.Name = "Go"
+Go.Parent = Check
+Go.BackgroundColor3 = Color3.fromRGB(81, 81, 81)
+Go.BorderSizePixel = 0
+Go.Position = UDim2.new(0.293532342, 0, 0.851145029, 0)
+Go.Size = UDim2.new(0, 164, 0, 28)
+Go.Font = Enum.Font.GothamBlack
+Go.Text = "GoTo"
+Go.TextColor3 = Color3.fromRGB(0, 0, 0)
+Go.TextScaled = true
+Go.TextSize = 14.000
+Go.TextWrapped = true
+
+Credits_2.Name = "Credits"
+Credits_2.Parent = Typa
+Credits_2.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+Credits_2.Size = UDim2.new(1, 0, 1, 0)
+Credits_2.Visible = false
+
+IDEA.Name = "IDEA"
+IDEA.Parent = Credits_2
+IDEA.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+IDEA.BackgroundTransparency = 1.000
+IDEA.Position = UDim2.new(0.0621890537, 0, 0.0648854971, 0)
+IDEA.Size = UDim2.new(0, 351, 0, 28)
+IDEA.Font = Enum.Font.GothamBlack
+IDEA.Text = "Idea By: SwagMode"
+IDEA.TextColor3 = Color3.fromRGB(0, 0, 0)
+IDEA.TextScaled = true
+IDEA.TextSize = 14.000
+IDEA.TextWrapped = true
+
+Script.Name = "Script"
+Script.Parent = Credits_2
+Script.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Script.BackgroundTransparency = 1.000
+Script.Position = UDim2.new(0.0621890537, 0, 0.213740453, 0)
+Script.Size = UDim2.new(0, 351, 0, 28)
+Script.Font = Enum.Font.GothamBlack
+Script.Text = "Script by: XBZOXA"
+Script.TextColor3 = Color3.fromRGB(0, 0, 0)
+Script.TextScaled = true
+Script.TextSize = 14.000
+Script.TextWrapped = true
+
+Script_2.Name = "Script"
+Script_2.Parent = Credits_2
+Script_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Script_2.BackgroundTransparency = 1.000
+Script_2.Position = UDim2.new(0.0646766126, 0, 0.374045789, 0)
+Script_2.Size = UDim2.new(0, 351, 0, 28)
+Script_2.Font = Enum.Font.GothamBlack
+Script_2.Text = "Designed by: XBZOXA"
+Script_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Script_2.TextScaled = true
+Script_2.TextSize = 14.000
+Script_2.TextWrapped = true
+
+local function VZMXST_fake_script()
+	local script = Instance.new('Script', VaxD_2)
+
+	local thing = script.Parent
+	local uiGradient = thing:WaitForChild("UIGradient")
+	local tweenService = game:GetService("TweenService")
+	
+	while true do
+		local tween = tweenService:Create(uiGradient, TweenInfo.new(2, Enum.EasingStyle.Linear), {Offset = Vector2.new(-1, 0)})
+		tween:Play()
+		wait(3)
+		uiGradient.Offset = Vector2.new(1, 0)
+		local tween2 = tweenService:Create(uiGradient, TweenInfo.new(2, Enum.EasingStyle.Linear), {Offset = Vector2.new(0, 0)})
+		tween2:Play()
+		wait(3)
+		local tween = tweenService:Create(uiGradient, TweenInfo.new(2, Enum.EasingStyle.Linear), {Offset = Vector2.new(-1, 0)})
+		tween:Play()
+		wait(3)
+		uiGradient.Offset = Vector2.new(1, 0)
+		local tween2 = tweenService:Create(uiGradient, TweenInfo.new(2, Enum.EasingStyle.Linear), {Offset = Vector2.new(0, 0)})
+		tween2:Play()
+		wait(15)
+	end
+end
+coroutine.wrap(VZMXST_fake_script)()
+local function HPZNFGQ_fake_script()
+	local script = Instance.new('LocalScript', Fly)
+
+	lplayer = game:GetService("Players").LocalPlayer
+	local Mouse = lplayer:GetMouse()
+	flying = false
+	local potato = 1
+	Mouse.KeyDown:connect(function(key)
+		if key == "x" then
+			if potato == 1 then
+				repeat wait() until lplayer and lplayer.Character and lplayer.Character:FindFirstChild('HumanoidRootPart') and lplayer.Character:FindFirstChild('Humanoid')
+				repeat wait() until Mouse
+				speedfly = 1
+	
+				local T = lplayer.Character.HumanoidRootPart
+				local CONTROL = {F = 0, B = 0, L = 0, R = 0}
+				local lCONTROL = {F = 0, B = 0, L = 0, R = 0}
+				local SPEED = speedget
+	
+				local function fly()
+					flying = true
+					local BG = Instance.new('BodyGyro', T)
+					local BV = Instance.new('BodyVelocity', T)
+					BG.P = 9e4
+					BG.maxTorque = Vector3.new(9e9, 9e9, 9e9)
+					BG.cframe = T.CFrame
+					BV.velocity = Vector3.new(0, 0.1, 0)
+					BV.maxForce = Vector3.new(9e9, 9e9, 9e9)
+					spawn(function()
+						repeat wait()
+							lplayer.Character.Humanoid.PlatformStand = true
+							if CONTROL.L + CONTROL.R ~= 0 or CONTROL.F + CONTROL.B ~= 0 then
+								SPEED = 50
+							elseif not (CONTROL.L + CONTROL.R ~= 0 or CONTROL.F + CONTROL.B ~= 0) and SPEED ~= 0 then
+								SPEED = 0
+							end
+							if (CONTROL.L + CONTROL.R) ~= 0 or (CONTROL.F + CONTROL.B) ~= 0 then
+								BV.velocity = ((workspace.CurrentCamera.CoordinateFrame.lookVector * (CONTROL.F + CONTROL.B)) + ((workspace.CurrentCamera.CoordinateFrame * CFrame.new(CONTROL.L + CONTROL.R, (CONTROL.F + CONTROL.B) * 0.2, 0).p) - workspace.CurrentCamera.CoordinateFrame.p)) * SPEED
+								lCONTROL = {F = CONTROL.F, B = CONTROL.B, L = CONTROL.L, R = CONTROL.R}
+							elseif (CONTROL.L + CONTROL.R) == 0 and (CONTROL.F + CONTROL.B) == 0 and SPEED ~= 0 then
+								BV.velocity = ((workspace.CurrentCamera.CoordinateFrame.lookVector * (lCONTROL.F + lCONTROL.B)) + ((workspace.CurrentCamera.CoordinateFrame * CFrame.new(lCONTROL.L + lCONTROL.R, (lCONTROL.F + lCONTROL.B) * 0.2, 0).p) - workspace.CurrentCamera.CoordinateFrame.p)) * SPEED
+							else
+								BV.velocity = Vector3.new(0, 0.1, 0)
+							end
+							BG.cframe = workspace.CurrentCamera.CoordinateFrame
+						until not flying
+						CONTROL = {F = 0, B = 0, L = 0, R = 0}
+						lCONTROL = {F = 0, B = 0, L = 0, R = 0}
+						SPEED = 0
+						BG:destroy()
+						BV:destroy()
+						lplayer.Character.Humanoid.PlatformStand = false
+					end)
+				end
+				Mouse.KeyDown:connect(function(KEY)
+					if KEY:lower() == 'w' then
+						CONTROL.F = speedfly
+					elseif KEY:lower() == 's' then
+						CONTROL.B = -speedfly
+					elseif KEY:lower() == 'a' then
+						CONTROL.L = -speedfly
+					elseif KEY:lower() == 'd' then
+						CONTROL.R = speedfly
+					end
+				end)
+				Mouse.KeyUp:connect(function(KEY)
+					if KEY:lower() == 'w' then
+						CONTROL.F = 0
+					elseif KEY:lower() == 's' then
+						CONTROL.B = 0
+					elseif KEY:lower() == 'a' then
+						CONTROL.L = 0
+					elseif KEY:lower() == 'd' then
+						CONTROL.R = 0
+					end
+				end)
+				potato = 0
+				fly()
+			else 
+				flying = false
+				lplayer.Character.Humanoid.PlatformStand = false
+				potato = 1
+			end 
+		end
+	end)
+end
+coroutine.wrap(HPZNFGQ_fake_script)()
+local function QALJL_fake_script()
+	local script = Instance.new('LocalScript', Fly)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		if script.Parent.Frame.BackgroundColor3 == Color3.fromRGB(0, 0, 0) then
+			script.Parent.Frame.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+		else
+			script.Parent.Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+		end
+	end)
+end
+coroutine.wrap(QALJL_fake_script)()
+local function PXMCOT_fake_script()
+	local script = Instance.new('LocalScript', Profile)
+
+	local Player = game:Service('Players').LocalPlayer
+	
+	local characterImageFormat='http://www.roblox.com/Thumbs/Avatar.ashx?x=352&y=352&format=png&userid=%d';
+	
+	 
+	
+	repeat wait() until Player
+	
+	 
+	while wait(1) do
+	
+	    script.Parent.Image = characterImageFormat:format(Player.userId);
+	
+	end
+end
+coroutine.wrap(PXMCOT_fake_script)()
+local function KVDKUWV_fake_script()
+	local script = Instance.new('LocalScript', Name)
+
+	script.Parent.Text = "Name :" .. game.Players.LocalPlayer.Name
+end
+coroutine.wrap(KVDKUWV_fake_script)()
+local function JFQRUO_fake_script()
+	local script = Instance.new('LocalScript', Cash)
+
+	while wait() do
+		
+		script.Parent.Text = "Cash : " .. game.Players.LocalPlayer.DataFolder.Currency.Value
+		
+	end
+end
+coroutine.wrap(JFQRUO_fake_script)()
+local function HFXE_fake_script()
+	local script = Instance.new('LocalScript', Bounty)
+
+	while wait() do
+		
+		script.Parent.Text = "Cash : " .. game.Players.LocalPlayer.leaderstats.Wanted.Value
+		
+	end
+end
+coroutine.wrap(HFXE_fake_script)()
+local function MPFYE_fake_script()
+	local script = Instance.new('LocalScript', Cash_2)
+
+	while wait() do
+		
+		script.Parent.Text = "Cash : " .. game.Players:FindFirstChild(script.Parent.Parent.Name.Text).DataFolder.Currency.Value
+		
+	end
+end
+coroutine.wrap(MPFYE_fake_script)()
+local function NXQOOHJ_fake_script()
+	local script = Instance.new('LocalScript', Bounty_2)
+
+	while wait() do
+		
+		script.Parent.Text = "Cash : " .. game.Players:FindFirstChild(script.Parent.Parent.Name.Text).leaderstats.Wanted.Value
+		
+	end
+end
+coroutine.wrap(NXQOOHJ_fake_script)()
+local function RIWQGX_fake_script()
+	local script = Instance.new('LocalScript', avatar)
+
+	
+	
+	local characterImageFormat='http://www.roblox.com/Thumbs/Avatar.ashx?x=352&y=352&format=png&userid=%d';
+	
+	repeat wait() until game.Players:FindFirstChild(script.Parent.Parent.Name.Text)
+	
+	 
+	while wait(1) do
+	
+		script.Parent.Image = characterImageFormat:format(game.Players:FindFirstChild(script.Parent.Parent.Name.Text).userId);
+	
+	end
+end
+coroutine.wrap(RIWQGX_fake_script)()
+local function RSRQQ_fake_script()
+	local script = Instance.new('LocalScript', VaxFrame)
+
+	script.Parent.Menu.Main.Scroll.Home.MouseButton1Click:Connect(function()
+		script.Parent.Typa.Home.Visible = true
+		script.Parent.Typa.MainScript.Visible = false
+		script.Parent.Typa.Check.Visible = false
+		script.Parent.Typa.Credits.Visible = false
+	end)
+	
+	script.Parent.Menu.Main.Scroll["Main Script"].MouseButton1Click:Connect(function()
+		script.Parent.Typa.Home.Visible = false
+		script.Parent.Typa.MainScript.Visible = true
+		script.Parent.Typa.Check.Visible = false
+		script.Parent.Typa.Credits.Visible = false
+	end)
+	
+	script.Parent.Menu.Main.Scroll.Checker.MouseButton1Click:Connect(function()
+		script.Parent.Typa.Check.Visible = true
+		script.Parent.Typa.MainScript.Visible = false
+		script.Parent.Typa.Home.Visible = false
+		script.Parent.Typa.Credits.Visible = false
+	end)
+	
+	script.Parent.Menu.Main.Scroll.Credits.MouseButton1Click:Connect(function()
+		script.Parent.Typa.Check.Visible = false
+		script.Parent.Typa.MainScript.Visible = false
+		script.Parent.Typa.Home.Visible = false
+		script.Parent.Typa.Credits.Visible = true
+	end)
+end
+coroutine.wrap(RSRQQ_fake_script)()
