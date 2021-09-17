@@ -41,6 +41,8 @@ VaxFrame.BorderColor3 = Color3.fromRGB(27, 42, 53)
 VaxFrame.BorderSizePixel = 0
 VaxFrame.Position = UDim2.new(0.196347028, 0, 0.174950302, 0)
 VaxFrame.Size = UDim2.new(0.486757994, 0, 0.520874739, 0)
+VaxFrame.Active = true
+VaxFrame.Draggable = true
 
 Menu.Name = "Menu"
 Menu.Parent = VaxFrame
@@ -339,7 +341,7 @@ Script_2.TextWrapped = true
 
 -- Scripts:
 
-local function RUCK_fake_script() -- VaxD_2.Script 
+local function XLSGBQ_fake_script() -- VaxD_2.Script 
 	local script = Instance.new('Script', VaxD_2)
 
 	local thing = script.Parent
@@ -363,8 +365,8 @@ local function RUCK_fake_script() -- VaxD_2.Script
 		wait(15)
 	end
 end
-coroutine.wrap(RUCK_fake_script)()
-local function IYEUF_fake_script() -- Fly.FlyScript 
+coroutine.wrap(XLSGBQ_fake_script)()
+local function RHIBLMX_fake_script() -- Fly.FlyScript 
 	local script = Instance.new('LocalScript', Fly)
 
 	lplayer = game:GetService("Players").LocalPlayer
@@ -450,8 +452,8 @@ local function IYEUF_fake_script() -- Fly.FlyScript
 		end
 	end)
 end
-coroutine.wrap(IYEUF_fake_script)()
-local function MPDZLDK_fake_script() -- Fly.Tab 
+coroutine.wrap(RHIBLMX_fake_script)()
+local function KLIUH_fake_script() -- Fly.Tab 
 	local script = Instance.new('LocalScript', Fly)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -462,8 +464,8 @@ local function MPDZLDK_fake_script() -- Fly.Tab
 		end
 	end)
 end
-coroutine.wrap(MPDZLDK_fake_script)()
-local function JUOBJM_fake_script() -- Profile.LocalScript 
+coroutine.wrap(KLIUH_fake_script)()
+local function SDKRT_fake_script() -- Profile.LocalScript 
 	local script = Instance.new('LocalScript', Profile)
 
 	local Player = game:Service('Players').LocalPlayer
@@ -481,14 +483,14 @@ local function JUOBJM_fake_script() -- Profile.LocalScript
 	
 	end
 end
-coroutine.wrap(JUOBJM_fake_script)()
-local function SHJOC_fake_script() -- Name.LocalScript 
+coroutine.wrap(SDKRT_fake_script)()
+local function ILGDDH_fake_script() -- Name.LocalScript 
 	local script = Instance.new('LocalScript', Name)
 
 	script.Parent.Text = "Name :" .. game.Players.LocalPlayer.Name
 end
-coroutine.wrap(SHJOC_fake_script)()
-local function POPE_fake_script() -- Cash.LocalScript 
+coroutine.wrap(ILGDDH_fake_script)()
+local function CABUK_fake_script() -- Cash.LocalScript 
 	local script = Instance.new('LocalScript', Cash)
 
 	while wait() do
@@ -497,8 +499,8 @@ local function POPE_fake_script() -- Cash.LocalScript
 		
 	end
 end
-coroutine.wrap(POPE_fake_script)()
-local function TVLTM_fake_script() -- Bounty.LocalScript 
+coroutine.wrap(CABUK_fake_script)()
+local function VWZZLW_fake_script() -- Bounty.LocalScript 
 	local script = Instance.new('LocalScript', Bounty)
 
 	while wait() do
@@ -507,8 +509,8 @@ local function TVLTM_fake_script() -- Bounty.LocalScript
 		
 	end
 end
-coroutine.wrap(TVLTM_fake_script)()
-local function WUSTG_fake_script() -- Cash_2.LocalScript 
+coroutine.wrap(VWZZLW_fake_script)()
+local function VKLQCIM_fake_script() -- Cash_2.LocalScript 
 	local script = Instance.new('LocalScript', Cash_2)
 
 	while wait() do
@@ -517,8 +519,8 @@ local function WUSTG_fake_script() -- Cash_2.LocalScript
 		
 	end
 end
-coroutine.wrap(WUSTG_fake_script)()
-local function CXLV_fake_script() -- Bounty_2.LocalScript 
+coroutine.wrap(VKLQCIM_fake_script)()
+local function YPSDOWH_fake_script() -- Bounty_2.LocalScript 
 	local script = Instance.new('LocalScript', Bounty_2)
 
 	while wait() do
@@ -527,8 +529,8 @@ local function CXLV_fake_script() -- Bounty_2.LocalScript
 		
 	end
 end
-coroutine.wrap(CXLV_fake_script)()
-local function JRUJ_fake_script() -- avatar.LocalScript 
+coroutine.wrap(YPSDOWH_fake_script)()
+local function QFJPC_fake_script() -- avatar.LocalScript 
 	local script = Instance.new('LocalScript', avatar)
 
 	
@@ -544,8 +546,8 @@ local function JRUJ_fake_script() -- avatar.LocalScript
 	
 	end
 end
-coroutine.wrap(JRUJ_fake_script)()
-local function SIBJL_fake_script() -- VaxFrame.MainScript 
+coroutine.wrap(QFJPC_fake_script)()
+local function NBUAP_fake_script() -- VaxFrame.MainScript 
 	local script = Instance.new('LocalScript', VaxFrame)
 
 	script.Parent.Menu.Main.Scroll.Home.MouseButton1Click:Connect(function()
@@ -576,4 +578,4 @@ local function SIBJL_fake_script() -- VaxFrame.MainScript
 		script.Parent.Typa.Credits.Visible = true
 	end)
 end
-coroutine.wrap(SIBJL_fake_script)()
+coroutine.wrap(NBUAP_fake_script)()
